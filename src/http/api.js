@@ -18,7 +18,12 @@ export const OVW_information = {
     //答题题目上下移动排序  
     sortord: EDatar('/upOrDown'),
     //答题小屏幕展示
-    respondent: EDatar('/queryItemById')
+    respondent: EDatar('/queryItemById'),
+    //答题下载率
+    answerAPP: EData('/manage/correctRate')
+
+
+
 }
 
 //奖金设置

@@ -34,61 +34,43 @@
           <!-- 参与人数 -->
           <div class="cyrs">
             <div
-              style="font-size:1rem;color: #999999;margin-left: 1.56rem;margin-top: 1.25rem;"
+              style="font-size:1.2rem;color: #333333;margin:auto; border-bottom:solid 1px #eeeeee;width:90%;text-align:center;line-height:65px;"
             >
               参与人数
             </div>
-            <div
-              style="font-size: 2.25rem;color: #333333;margin-top: 1.7rem;margin-left: 7rem;font-weight: bold;"
-            >
-              {{ amount_to.totalPeople
-              }}<span
-                style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
-                >人</span
+            <div style="width:100%;height:64%;display: flex;">
+              <div
+                style="font-size: 2.25rem;color: #333333;font-weight: bold;border-right:solid 1px #eeeeee;width:55%;height:80%;text-align:center;line-height:85px;margin-top:10px;"
               >
-            </div>
-            <div
-              style="width:20rem;height:0.06rem;background: #EEEEEE;margin-left: 1.88rem;margin-top: 1.75rem;"
-            ></div>
-            <div style="display: flex;">
-              <div>
-                <div style="width: 10rem;display: flex;margin-left: 1.88rem;">
-                  <div
-                    style="width:0.5rem;height:0.5rem;background:#80C269;border-radius:50%;margin-left: 1.19rem;margin-top: 1.69rem;"
-                  ></div>
-                  <div
-                    style="font-size: 1rem;color: #333333;margin-top: 1.2rem;margin-left: 1.19rem;"
+                {{ amount_to.totalPeople }}
+              </div>
+
+              <div
+                style="width:40%;line-height: 37px;padding-top: 15px;padding-left: 16px;"
+              >
+                <div style="display: flex;">
+                  <span style="font-size: 1rem;color:#b1b1b1">昨日参与</span>
+                  <span
+                    style="font-size: 1rem;color: #2d8aea;font-weight: bold;margin-left: 10px;"
                   >
-                    昨日参与
-                  </div>
-                </div>
-                <div
-                  style="font-size: 1.5rem;color: #333333;font-weight: bold;margin-left: 4rem;margin-top: 0.6rem;"
-                >
-                  {{ amount_to.yesterdayPeople
-                  }}<span
-                    style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
+                    1{{ amount_to.yesterdayPeople }}
+                  </span>
+                  <span
+                    style="font-size: 1rem;color:#b1b1b1;font-weight: 400;margin-left: 10px;"
                     >人</span
                   >
                 </div>
-              </div>
-              <div>
-                <div style="width: 10rem;display: flex;">
-                  <div
-                    style="width:0.5rem;height:0.5rem;background:#E5004F;border-radius:50%;margin-left: 1.19rem;margin-top: 1.69rem;"
-                  ></div>
-                  <div
-                    style="font-size: 1rem;color: #333333;margin-top: 1.2rem;margin-left: 1.19rem;"
+
+                <div style="display: flex;">
+                  <span style="font-size: 1rem;color:#b1b1b1"> 今日新增</span>
+
+                  <span
+                    style="font-size: 1rem;color: #2ebf83;font-weight: bold;;margin-left: 10px;"
                   >
-                    今日新增
-                  </div>
-                </div>
-                <div
-                  style="font-size: 1.5rem;color: #333333;font-weight: bold;margin-left: 2.3rem;margin-top: 0.6rem;"
-                >
-                  {{ amount_to.todayPeople
-                  }}<span
-                    style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
+                    {{ amount_to.todayPeople }}
+                  </span>
+                  <span
+                    style="font-size: 1rem;color: #b1b1b1;font-weight: 400;margin-left: 10px;"
                     >人</span
                   >
                 </div>
@@ -98,61 +80,43 @@
           <!-- 答题次数 -->
           <div class="dtcs">
             <div
-              style="font-size:1rem;color: #999999;margin-left: 1.56rem;margin-top: 1.25rem;"
+              style="font-size:1.2rem;color: #333333;margin:auto; border-bottom:solid 1px #eeeeee;width:90%;text-align:center;line-height:65px;"
             >
               答题次数
             </div>
-            <div
-              style="font-size: 2.25rem;color: #333333;margin-top: 1.7rem;margin-left: 7rem;font-weight: bold;"
-            >
-              {{ amount_to.totalAnswer
-              }}<span
-                style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
-                >次</span
+            <div style="width:100%;height:64%;display: flex;">
+              <div
+                style="font-size: 2.25rem;color: #333333;font-weight: bold;border-right:solid 1px #eeeeee;width:55%;height:80%;text-align:center;line-height:85px;margin-top:10px;"
               >
-            </div>
-            <div
-              style="width:20rem;height:0.06rem;background: #EEEEEE;margin-left: 1.88rem;margin-top: 1.75rem;"
-            ></div>
-            <div style="display: flex;">
-              <div>
-                <div style="width: 10rem;display: flex;margin-left: 1.88rem;">
-                  <div
-                    style="width:0.5rem;height:0.5rem;background:#80C269;border-radius:50%;margin-left: 1.19rem;margin-top: 1.69rem;"
-                  ></div>
-                  <div
-                    style="font-size: 1rem;color: #333333;margin-top: 1.2rem;margin-left: 1.19rem;"
+                {{ amount_to.totalAnswer }}
+              </div>
+
+              <div
+                style="width:40%;line-height: 37px;padding-top: 15px;padding-left: 16px;"
+              >
+                <div style="display: flex;">
+                  <span style="font-size: 1rem;color:#b1b1b1">昨日答题</span>
+                  <span
+                    style="font-size: 1rem;color: #2d8aea;font-weight: bold;margin-left: 10px;"
                   >
-                    昨日答题
-                  </div>
-                </div>
-                <div
-                  style="font-size: 1.5rem;color: #333333;font-weight: bold;margin-left: 4rem;margin-top: 0.6rem;"
-                >
-                  {{ amount_to.yesterdayAnswer
-                  }}<span
-                    style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
+                    {{ amount_to.yesterdayAnswer }}
+                  </span>
+                  <span
+                    style="font-size: 1rem;color:#b1b1b1;font-weight: 400;margin-left: 10px;"
                     >人</span
                   >
                 </div>
-              </div>
-              <div>
-                <div style="width: 10rem;display: flex;">
-                  <div
-                    style="width:0.5rem;height:0.5rem;background:#E5004F;border-radius:50%;margin-left: 1.19rem;margin-top: 1.69rem;"
-                  ></div>
-                  <div
-                    style="font-size: 1rem;color: #333333;margin-top: 1.2rem;margin-left: 1.19rem;"
+
+                <div style="display: flex;">
+                  <span style="font-size: 1rem;color:#b1b1b1"> 今日新增</span>
+
+                  <span
+                    style="font-size: 1rem;color: #2ebf83;font-weight: bold;;margin-left: 10px;"
                   >
-                    今日新增
-                  </div>
-                </div>
-                <div
-                  style="font-size: 1.5rem;color: #333333;font-weight: bold;margin-left: 2.3rem;margin-top: 0.6rem;"
-                >
-                  {{ amount_to.todayAnswer
-                  }}<span
-                    style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
+                    {{ amount_to.todayAnswer }}
+                  </span>
+                  <span
+                    style="font-size: 1rem;color: #b1b1b1;font-weight: 400;margin-left: 10px;"
                     >人</span
                   >
                 </div>
@@ -161,132 +125,63 @@
           </div>
           <!-- 奖励提现 -->
           <div class="jltx">
+            <!-- 1111 -->
             <div
-              style="height: 3rem;width: 17.32rem;display: flex;margin-left: 4.88rem;margin-top: 1.2rem;"
+              style="display: flex;height:63%;border-bottom: solid 1px #eee;width: 95%;margin: auto;padding: 10px 0;"
             >
-              <div style="line-height: 3rem;font-size: 1rem;color: #999999;">
-                奖励提现
-              </div>
-              <div
-                style="font-size: 2.25rem;color: #333333;font-weight: bold;margin-left: 2.19rem;"
-              >
-                {{ amount_to.totalWithdraw
-                }}<span
-                  style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
-                  >元</span
+              <div style="border-right: solid 1px #eeeeee;width:50%">
+                <div
+                  style="line-height: 3rem;font-size: 1.2rem;color: #999999;text-align: center;"
                 >
-              </div>
-            </div>
-            <div
-              style="height: 3rem;width: 17.32rem;display: flex;margin-left: 4.88rem;margin-top: 0.87rem;"
-            >
-              <div style="line-height: 3rem;font-size: 1rem;color: #999999;">
-                奖金剩余
-              </div>
-              <div
-                style="font-size: 2.25rem;color: #333333;font-weight: bold;margin-left: 2.19rem;"
-              >
-                {{ amount_to.surplusWithdraw
-                }}<span
-                  style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
-                  >元</span
-                >
-              </div>
-            </div>
-            <div
-              style="width:20rem;height:0.06rem;background: #EEEEEE;margin-left: 1.88rem;margin-top: 0.88rem;"
-            ></div>
-            <div style="display: flex;">
-              <div>
-                <div style="width: 10rem;display: flex;margin-left: 1.88rem;">
-                  <div
-                    style="width:0.5rem;height:0.5rem;background:#80C269;border-radius:50%;margin-left: 1.19rem;margin-top: 1.69rem;"
-                  ></div>
-                  <div
-                    style="font-size: 1rem;color: #333333;margin-top: 1.2rem;margin-left: 1.19rem;"
-                  >
-                    昨日提现
-                  </div>
+                  奖励提现
                 </div>
                 <div
-                  style="font-size: 1.5rem;color: #333333;font-weight: bold;margin-left: 4rem;margin-top: 0.6rem;"
+                  style="font-size: 2.25rem;color: #333333;font-weight: bold;text-align: center;"
                 >
-                  {{ amount_to.yesterdayWithdraw
+                  {{ amount_to.totalWithdraw
                   }}<span
-                    style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
+                    style="font-size: 1rem;font-weight: 400; margin-left:10px;"
                     >元</span
                   >
                 </div>
               </div>
-              <div>
-                <div style="width: 10rem;display: flex;">
-                  <div
-                    style="width:0.5rem;height:0.5rem;background:#E5004F;border-radius:50%;margin-left: 1.19rem;margin-top: 1.69rem;"
-                  ></div>
-                  <div
-                    style="font-size: 1rem;color: #333333;margin-top: 1.2rem;margin-left: 1.19rem;"
-                  >
-                    今日提现
-                  </div>
+
+              <!-- 222222 -->
+              <div style="width:50%">
+                <div
+                  style="line-height: 3rem;font-size: 1.2rem;color: #999999;text-align: center;"
+                >
+                  奖金剩余
                 </div>
                 <div
-                  style="font-size: 1.5rem;color: #333333;font-weight: bold;margin-left: 2.3rem;margin-top: 0.6rem;"
+                  style="font-size: 2.25rem;color: #333333;font-weight: bold;text-align: center;"
                 >
-                  {{ amount_to.todayWithdraw
+                  {{ amount_to.surplusWithdraw
                   }}<span
-                    style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
+                    style="font-size: 1rem;font-weight: 400; margin-left:10px;"
                     >元</span
                   >
                 </div>
+              </div>
+            </div>
+
+            <div
+              style="height: 26%;display: flex;justify-content: space-around;align-items: center"
+            >
+              <!--11111-->
+              <div style="font-size: 0.9rem;color: #999999;font-weight: bold;">
+                昨日提现
+                <span> {{ amount_to.yesterdayWithdraw }}元 </span>
+              </div>
+              <!--2222-->
+              <div style="font-size: 0.9rem;color: #999999;font-weight: bold;">
+                今日提现
+                <span> {{ amount_to.todayWithdraw }} 元 </span>
               </div>
             </div>
           </div>
         </div>
         <div class="bottom">
-          <div class="left-div">
-            <!-- 月增长 -->
-            <div class="yzz">
-              <div
-                style="font-size: 1.13rem;color: #333333;margin-left: 1.81rem;padding-top: 1.5rem;"
-              >
-                月增长
-              </div>
-              <div style="text-align: center; line-height: 9rem;">
-                <div>
-                  <div
-                    style="font-size: 3rem;color: #333333;font-weight: bold;"
-                  >
-                    {{ amount_to.monthIncrease
-                    }}<span
-                      style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
-                      >人</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 季度增长 -->
-            <div class="jdzz">
-              <div
-                style="font-size: 1.13rem;color: #333333;margin-left: 1.81rem;padding-top: 1.5rem;"
-              >
-                季度增长
-              </div>
-              <div style="text-align: center; line-height: 9rem;">
-                <div>
-                  <div
-                    style="font-size: 3rem;color: #333333;font-weight: bold;"
-                  >
-                    {{ amount_to.quarterIncrease
-                    }}<span
-                      style="font-size: 1rem;color: #999999;font-weight: 400;margin-left: 0.5rem;"
-                      >人</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <!--统计图 图表 -->
           <div class="charts">
             <div style="display: flex;">
@@ -371,8 +266,109 @@
             </div>
             <div
               id="myChart"
-              :style="{ width: '100%', height: '88.73%' }"
+              :style="{ width: '100%', height: '85.73%' }"
             ></div>
+          </div>
+          <div class="left-div">
+            <!-- 月增长 -->
+            <div class="yzz">
+              <div
+                style="font-size: 1.13rem;color: #333333;margin-left: 1.81rem;padding-top: 1.5rem;"
+              >
+                月增长（人）
+              </div>
+              <div
+                style="width: 275px;height:310px;padding-left: 10px;"
+                id="maiadf"
+              ></div>
+            </div>
+            <!-- 季度增长 -->
+            <div class="jdzz">
+              <div
+                style="font-size: 1.13rem;color: #333333;margin-left: 1.81rem;padding-top: 1.5rem;"
+              >
+                季度增长（人）
+              </div>
+
+              <div
+                style="width:275px;height:310px;;padding-left: 10px;"
+                id="myGrowth"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <!--答题下载率-->
+        <div class="app_Download">
+          <!--答题完成率-->
+          <div class="a_dow">
+            <div class="finish">答题完成率</div>
+            <div class="b_dowload">
+              <div
+                class="b_doWdd"
+                v-for="(iteml, indexk) in b_doWddList"
+                :key="indexk"
+              >
+                <span style="color:#999999">第{{ iteml.sort }}题</span>
+                <div style="width:70%;margin:0 auto 0">
+                  <el-progress
+                    :text-inside="true"
+                    :stroke-width="16"
+                    :percentage="(iteml.correctRate * 100).toFixed(1)"
+                    :color="colorArr[indexk]"
+                  ></el-progress>
+                </div>
+                <span style="color:#999999"> {{ iteml.answerCi }}次</span>
+              </div>
+            </div>
+          </div>
+          <!--答题完成率-->
+          <div class="a_dow">
+            <div class="finish">答题总正确率</div>
+            <div class="b_dowload" style="display:flex">
+              <div
+                style="width:49%;height: 100%;display: flex;align-items: center; justify-content: center;"
+              >
+                <el-progress
+                  type="circle"
+                  :percentage="(You_areright.correctRate * 100).toFixed(1)"
+                  :stroke-width="15"
+                  :width="170"
+                ></el-progress>
+              </div>
+              <div style="width:49%;height: 100%; font-size:15px;">
+                <div style="width:151px;margin:47% auto 0">
+                  总答题数：{{ You_areright.totalAnswer }}次
+                  <div style="width:151px;margin:7% auto 0">
+                    总答题正确数：{{ You_areright.totalCorrect }}次
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--答题完成率-->
+          <div class="a_dow">
+            <div class="finish">app下载率</div>
+            <div class="b_dowload" style="display:flex">
+              <div
+                style="width:49%;height: 100%;display: flex;align-items: center; justify-content: center;"
+              >
+                <el-progress
+                  type="circle"
+                  :percentage="(APP_doLad.appDownloadRate * 100).toFixed(1)"
+                  :stroke-width="13"
+                  :width="170"
+                  color="#2bbb74"
+                ></el-progress>
+              </div>
+              <div style="width:49%;height: 100%; font-size:15px;">
+                <div style="width:141px;margin:47% auto 0">
+                  完成答题：{{ APP_doLad.totalAnswere }}人
+                </div>
+                <div style="width:141px;margin:7% auto 0">
+                  APP下载：{{ APP_doLad.appDownload }}人
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -652,13 +648,7 @@
             <el-table-column
               prop="applyWithdrawTime"
               align="center"
-              label="申请提现时间"
-            >
-            </el-table-column>
-            <el-table-column
-              prop="arrivalAccountTime"
-              align="center"
-              label="到账时间"
+              label="提现时间"
             >
             </el-table-column>
           </el-table>
@@ -673,10 +663,6 @@
               :total="TO_TAl"
             >
             </el-pagination>
-
-            <!-- <div class="Number_pages">
-              共{{ Math.ceil(TO_TAl / pageInfo.size) }}页
-            </div> -->
           </div>
         </div>
       </div>
@@ -902,32 +888,34 @@
             >
             <input
               type="text"
-              :disabled="q.green"
               v-model="q.question"
+              @blur="subject()"
               style="width: 48rem;height: 2.25rem;background: #FFFFFF;margin-left: 1.56rem;border-radius: 0.2rem;line-height: 2.25rem;padding-left: 1rem;border: none;font-size: 0.88rem;color: #333333;"
             />
 
             <div
               style="margin-left: 1rem; height: 2.25rem;line-height: 2.25rem;cursor:pointer;"
-              v-show="!!q.uuId"
-              v-if="q.green"
             >
-              <span style="color: #67c23a;" @click="fixQuestion(qidx)">
+              <!-- <span style="color: #67c23a;" @click="fixQuestion(qidx)">
                 修改
               </span>
-              |
-              <span style="color:#ea7777;" @click="Delete_the_title(qidx)"
-                >删除</span
+              | -->
+              <el-button
+                size="medium"
+                type="danger"
+                style="color:#f3f3f3;"
+                @click="Delete_the_title(qidx)"
+                >删除</el-button
               >
             </div>
-            <el-button
+            <!-- <el-button
               type="success"
               size="mini"
               style="margin-left: 1rem;"
               v-if="!q.green"
               @click="ANswer_To_Save(q, qidx, 'fix')"
               >修改提交</el-button
-            >
+            > -->
           </div>
           <div
             style="width: 68.13rem;height: 2.63rem;display: flex;margin-top: 3rem;"
@@ -941,7 +929,6 @@
             <!-- 自定义金额 -->
             <input
               type="radio"
-              :disabled="q.green"
               :id="'radioId' + 1 + qidx"
               :name="'radio' + qidx"
               value="0"
@@ -955,8 +942,8 @@
               <input
                 v-show="q.bonusWay == 0"
                 type="text"
-                :disabled="q.green"
                 v-model="q.bonusMoney"
+                @blur="subject()"
                 style="width: 3rem;height: 2rem;line-height: 2rem;font-size: 1rem;color: #333333;margin-left: 0.94rem;margin-right: 0.94rem;border: 0.06rem solid #AEAEAE;border-radius: 0.2rem;text-align: center;"
               />
               <span v-show="q.bonusWay == 0">元</span>
@@ -965,7 +952,6 @@
             <!-- 随机金额 -->
             <input
               type="radio"
-              :disabled="q.green"
               :id="'radioId' + 2 + qidx"
               :name="'radio' + qidx"
               value="1"
@@ -978,7 +964,6 @@
 
               <input
                 v-show="q.bonusWay == 1"
-                :disabled="q.green"
                 type="text"
                 v-model="q.bonusMin"
                 style="width: 3rem;height: 2rem;line-height: 2rem;font-size: 1rem;color: #333333;margin-left: 0.94rem;margin-right: 0.94rem;border: 0.06rem solid #AEAEAE;border-radius: 0.2rem;text-align: center;font-size: 0.88rem;color: #333333;"
@@ -987,7 +972,6 @@
 
               <input
                 v-show="q.bonusWay == 1"
-                :disabled="q.green"
                 type="text"
                 v-model="q.bonusMax"
                 style="width: 3rem;height: 2rem;line-height: 2rem;font-size: 1rem;color: #333333;margin-left: 0.94rem;margin-right: 0.94rem;border: 0.06rem solid #AEAEAE;border-radius: 0.2rem;text-align: center;font-size: 0.88rem;color: #333333;"
@@ -1015,9 +999,9 @@
                 style="display: flex;margin-top: 0.94rem;"
               >
                 <input
-                  :disabled="q.green"
                   type="text"
                   v-model="adata.answerOption"
+                  @blur="subject()"
                   style="width: 36rem;height: 2.25rem;background: #FFFFFF;margin-left: 1.9rem;border-radius: 0.2rem;line-height: 2.25rem;padding-left: 1rem;border: none;font-size: 0.88rem;color: #333333;"
                 />
                 <!--图片上传功能-->
@@ -1106,14 +1090,14 @@
               答案解析：
             </div>
             <textarea
-              :disabled="q.green"
               v-model="q.answerRemark"
+              @blur="subject()"
               type="text"
               style="width: 50rem;height: 7.5rem;background: #FFFFFF;margin-left: 1.9rem;border-radius: 0.2rem;line-height: 2rem;padding: 0 1rem;border: none;margin-bottom: 1.94rem;resize: none;font-size: 0.88rem;color: #333333;"
             ></textarea>
           </div>
 
-          <div v-if="q.prohibition">
+          <div>
             <el-button
               type="primary"
               style="position: absolute; right: 0.8rem; bottom: 0.8rem;"
@@ -1223,7 +1207,7 @@ export default {
           newstype_id: 2
         }
       ],
-      od: 3,
+      od: 0,
       value1: "",
       value2: "",
       fileName: "选择歌曲",
@@ -1243,7 +1227,7 @@ export default {
       TO_TAl: 0, //提现账号总条数
       pageInfo: {
         page: 1, //当前页数
-        size: 3 //每页显示的个数
+        size: 10 //每页显示的个数
       },
       pagemusic: {
         // 音乐分页
@@ -1257,11 +1241,30 @@ export default {
       QUestion_Bank: {},
       payze: false,
       ghjk: false,
-      seen: true
+      seen: true,
+      b_doWddList: [], //答题完成率
+      You_areright: [], //答题正确率
+      APP_doLad: [], //app下载率
+      colorArr: [
+        "#686cff",
+        "#2ebf83",
+        "#ffc63d",
+        "#ff6769",
+        "#8f7ee5",
+        "#45bbff",
+        "#a0e94a",
+        "#b9e337",
+        "#ff5ba8",
+        "#af6fff"
+      ]
     };
   },
 
   methods: {
+    subject() {
+      console.log("我要执行事件");
+    },
+
     enter(aindex, index) {
       this.question[aindex].options[index].seen = true;
       this.$forceUpdate();
@@ -1956,10 +1959,10 @@ export default {
         });
         if (res.status == "SUCCESS") {
           this.question = res.data;
-          this.question.forEach(v => {
-            v.prohibition = v.uuId ? false : true; //是否显示添加保存按钮
-            v.green = v.uuId ? true : false; //input是否可输入
-          });
+          // this.question.forEach(v => {
+          //   v.prohibition = v.uuId ? false : true; //是否显示添加保存按钮
+          //   v.green = v.uuId ? true : false; //input是否可输入
+          // });
         }
       } catch (e) {
         this.$message.error("服务器异常，请稍后再试");
@@ -2177,10 +2180,196 @@ export default {
 
         this.BGM_BackgrOund_music();
       }
+    },
+
+    //季增长
+    QuarterOFgrowth(Quarter_ofGrowth) {
+      let myGrowth = this.$echarts.init(document.getElementById("myGrowth"));
+      var itemStyle = {
+        //柱形图圆角，鼠标移上去效果，如果只是一个数字则说明四个参数全部设置为那么多
+        emphasis: {
+          barBorderRadius: 30
+        },
+
+        normal: {
+          //柱形图圆角，初始化效果
+          barBorderRadius: [10, 10, 0, 0],
+          label: {
+            show: true, //是否展示
+            textStyle: {
+              fontWeight: "bolder",
+              fontSize: "10",
+              fontFamily: "微软雅黑"
+            }
+          }
+        }
+      };
+
+      myGrowth.setOption({
+        color: "#2bba73",
+        tooltip: {},
+        xAxis: {
+          type: "category",
+          data: ["一季度", "二季度", "三季度", "四季度"],
+          axisTick: {
+            show: false
+          },
+          splitLine: { show: false }, //去除网格线
+          axisLine: {
+            //y轴
+            show: false
+          }
+        },
+        yAxis: {
+          type: "value",
+          axisTick: {
+            show: false
+          },
+          axisLabel: {
+            formatter: function() {
+              return "";
+            }
+          },
+          splitLine: { show: false }, //去除网格线
+          axisLine: {
+            //y轴
+            show: false
+          }
+        },
+        series: [
+          {
+            show: true,
+            boundaryGap: true,
+            name: "增长人数",
+            type: "bar",
+            barWidth: "19px",
+            itemStyle: itemStyle,
+            data: [
+              Quarter_ofGrowth.firstQuqrter,
+              Quarter_ofGrowth.secondQuarter,
+              Quarter_ofGrowth.thirdQuarter,
+              Quarter_ofGrowth.fourthQuarter
+            ],
+             label: {
+              normal: {
+                show: true,
+                position: "top"
+              }
+            }
+          }
+        ]
+      });
+    },
+
+    //月增长
+    async MonthOFgrowth(Month_ofGrowth) {
+      let myGrowth = this.$echarts.init(document.getElementById("maiadf"));
+      var itemStyle = {
+        //柱形图圆角，鼠标移上去效果，如果只是一个数字则说明四个参数全部设置为那么多
+        emphasis: {
+          barBorderRadius: 27
+        },
+
+        normal: {
+          //柱形图圆角，初始化效果
+          barBorderRadius: [10, 10, 0, 0],
+          label: {
+            show: true, //是否展示
+            textStyle: {
+              // fontWeight: "bolder",
+              fontSize: "12",
+              fontFamily: "微软雅黑",
+              color: "black"
+            }
+          }
+        }
+      };
+
+      myGrowth.setOption({
+        color: "#676dff",
+        tooltip: {},
+
+        xAxis: {
+          type: "category",
+          data: [this.currenT_Month-2+'月', this.currenT_Month-1+'月', this.currenT_Month+'月'],
+          axisTick: {
+            show: false
+          },
+          splitLine: { show: false }, //去除网格线
+          axisLine: {
+            //y轴
+            show: false
+          }
+        },
+
+        yAxis: {
+          type: "value",
+          axisTick: {
+            show: false
+          },
+          axisLabel: {
+            formatter: function() {
+              return "";
+            }
+          },
+          splitLine: { show: false }, //去除网格线
+          axisLine: {
+            //y轴
+            show: false
+          }
+        },
+        series: [
+          {
+            name: "增长人数",
+            type: "bar",
+            barWidth: "21px",
+            itemStyle: itemStyle,
+            data: [
+              Month_ofGrowth.beforeLastMonth,
+              Month_ofGrowth.lastMonth,
+              Month_ofGrowth.currentMonth
+            ],
+            label: {
+              normal: {
+                show: true,
+                position: "top"
+              }
+            }
+          }
+        ]
+      });
+    },
+    //答题完成率
+    async answer_AppEfficient() {
+      axios
+        .post("http://118.190.106.118:8021/answer/manage/correctRate")
+        .then(res => {
+          if (res.data.status == "SUCCESS") {
+            let datalistg = res.data.data;
+            console.log("555555", datalistg);
+            //答题完成率
+            this.b_doWddList = datalistg.correctRate;
+            //答题总正确率
+            this.You_areright = datalistg.totalCorrectRate;
+            //app下载率
+            this.APP_doLad = datalistg.appDownloadRate;
+            // this.Month_ofGrowth = datalistg.monthQuarterIncrease
+            let Month_ofGrowth = datalistg.monthQuarterIncrease; //月季
+            //月增长
+            this.MonthOFgrowth(Month_ofGrowth);
+            //季增长
+            this.QuarterOFgrowth(Month_ofGrowth);
+          }
+        })
+        .catch(error => {
+          console.log("0000000", error);
+        });
     }
   },
 
   mounted() {
+    //答题完成率
+    this.answer_AppEfficient();
     this.ifn_statistics();
     this.broken_line_graph();
     this.Bonus_to_preview();
@@ -2190,6 +2379,15 @@ export default {
 
     this.title_number(this.currentTab5);
     this.BGM_BackgrOund_music(this.pagemusic.page, this.pagemusic.size);
+  },
+  computed:{
+    currenT_Month(){
+      var date=new Date;
+ var month=date.getMonth()+1;
+ 
+ var mydate = (month.toString());
+      return mydate
+    }
   }
 };
 </script>
@@ -2215,7 +2413,7 @@ export default {
 }
 
 .operation-div {
-  width: 77.19rem;
+  width: 87.19rem;
   min-height: 55.31rem;
   background: #ffffff;
   margin-left: 30.25rem;
@@ -2224,6 +2422,9 @@ export default {
 
 .top {
   display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
+  margin-top: 15px;
 }
 
 .bottom {
@@ -2231,74 +2432,115 @@ export default {
 }
 
 .cyrs {
-  width: 23.75rem;
-  height: 15.31rem;
+  width: 27.5rem;
+  height: 11.31rem;
   background: rgba(255, 255, 255, 1);
-  box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.04);
+  box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.04);
   border-radius: 0.5rem;
-  margin-left: 2rem;
+  margin-left: 20px;
 }
 
 .dtcs {
-  width: 23.75rem;
-  height: 15.31rem;
+  width: 27.5rem;
+  height: 11.31rem;
   background: rgba(255, 255, 255, 1);
-  box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.04);
+  box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.04);
   border-radius: 0.5rem;
-  margin-left: 1rem;
 }
 
 .jltx {
-  width: 23.75rem;
-  height: 15.31rem;
+  width: 27.5rem;
+  height: 11.31rem;
   background: rgba(255, 255, 255, 1);
-  box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.04);
+  box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.04);
   border-radius: 0.5rem;
-  margin-left: 0.81rem;
 }
 
 .left-div {
-  width: 23.56rem;
-  height: 30.31rem;
+  width: 36.56rem;
+  height: 20.5rem;
   background: #ffffff;
-  margin-left: 2rem;
-  margin-top: 2.5rem;
+  margin-left: 0.8rem;
+  display: flex;
+  margin-top: 1.5rem;
+  box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
 }
 
 .yzz {
-  width: 23.56rem;
-  height: 12.75rem;
+  width: 50%;
+  height: 100%;
+  border-right: solid 1px #eeeeee;
   box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.04);
-  border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .jdzz {
-  width: 23.56rem;
-  height: 12.75rem;
+  width: 50%;
+  height: 100%;
   box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.04);
-  border-radius: 0.5rem 0.5rem 0rem 0rem;
-  margin-top: 0.81rem;
 }
 
 .charts {
   width: 48.31rem;
-  height: 29.5rem;
+  height: 20.5rem;
   background: #ffffff;
-  box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.04);
+  box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.08);
   border-radius: 0.5rem;
   margin-left: 1.38rem;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
+.app_Download {
+  width: 97%;
+  height: 20.5rem;
+  background: #ffffff;
+  box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.09);
+  border-radius: 0.5rem;
+  margin-left: 1.38rem;
+  margin-top: 2rem;
+  display: flex;
+}
+.a_dow {
+  width: 33%;
+  height: 99%;
+  background: #ffffff;
+}
+.a_dow:nth-child(1) {
+  border-right: solid 1px #eeeeee;
+}
+.a_dow:nth-child(2) {
+  border-right: solid 1px #eeeeee;
+}
+.finish {
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.b_dowload {
+  width: 95%;
+  height: 80%;
+  margin: 0 auto;
+}
+.b_doWdd {
+  width: 97%;
+  padding-left: 7px;
+  padding-right: 7px;
+  height: 40px;
+  margin-top: 9px;
+  display: flex;
+}
+
 /* 选项卡样式 */
 
 .left-menu-view {
   display: flex;
   white-space: nowrap;
-  width: 50rem;
+  width: 98%;
   background-color: #ffffff;
   overflow: hidden;
   height: 4.82rem;
-  margin-left: 2.5rem;
+  padding-left: 20px;
+  box-shadow: 0rem 2rem 2rem 0rem rgba(0, 0, 0, 0.06);
   /* 在这里设置导航条高度 */
 }
 
@@ -2730,7 +2972,7 @@ input[type="radio"]:checked + label::before {
 .el-table .success-row {
   background: #f0f9eb;
 }
-  .el-pagination {
+.el-pagination {
   text-align: center;
 }
 </style>
